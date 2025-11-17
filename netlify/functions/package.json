@@ -1,0 +1,12 @@
+// netlify/functions/package.json
+{
+  "name": "aura-functions",
+  "version": "1.0.0",
+  "description": "Netlify functions for Aura Counter",
+  "main": "aura.js",
+  "dependencies": {
+    "node-fetch": "^3.3.2" 
+    // Nota: Netlify Functions usa già Node.js, 
+    // ma la libreria ufficiale 'openai' sarebbe un'alternativa se volessi cambiare.
+  }
+}
