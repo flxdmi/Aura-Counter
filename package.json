@@ -1,0 +1,8 @@
+{
+  "name": "aura-counter-root",
+  "version": "1.0.0",
+  "description": "Root package file for Netlify deploy.",
+  "scripts": {
+    "build": "npm install --prefix netlify/functions"
+  }
+}
