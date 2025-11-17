@@ -1,10 +1,9 @@
-// netlify/functions/package.json
 {
   "name": "aura-functions",
   "version": "1.0.0",
   "description": "Netlify functions dependencies",
   "main": "aura.js",
   "dependencies": {
-    "node-fetch": "^3.3.2" 
+    "node-fetch": "^3.3.2"
   }
 }
