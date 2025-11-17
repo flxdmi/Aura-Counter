@@ -2,12 +2,9 @@
 {
   "name": "aura-functions",
   "version": "1.0.0",
-  "description": "Netlify functions for Aura Counter",
+  "description": "Netlify functions dependencies",
   "main": "aura.js",
   "dependencies": {
     "node-fetch": "^3.3.2" 
-    // L'API di OpenAI usa fetch, che è nativo in Node.js 18+.
-    // Se Netlify usa una versione più vecchia, questo è necessario.
-    // Se usi l'SDK di OpenAI, devi mettere "openai": "^4.0.0"
   }
 }
